@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/SuryaPradeepthi/Jenkins-Zero-To-Hero.git'
+        //git branch: 'main', url: 'https://github.com/SuryaPradeepthi/Jenkins-Zero-To-Hero/blob/main/java-maven-sonar-argocd-helm-k8s/spring-boot-app.git'
       }
     }
     stage('Build and Test') {
